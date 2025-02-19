@@ -21,125 +21,426 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
           </thead>
           
           <!-- M1 to M -->
-          <tbody>
-            <tr>
-              <td rowspan="4" style="vertical-align: top;"><p>p241 (Male)</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/vctk_orig/p241_302.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td rowspan="4" style="vertical-align: top;"><p>p334 (Male)</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/vctk_orig/p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td style="width: 25%"><p>AdaIN-VC</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/adain/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td style="width: 25%"><p>AGAIN-VC</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/again/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-            </tr>
-            <tr>
-              <td><p>AutoVC</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/autovc/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td><p>AutoVC-F0</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/autovc_f0/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-            </tr>
-            <tr>
-              <td><p>Blow</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/blow/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td><p>NVC-Net</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/nvcnet/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-            </tr>
-            <tr>
-              <td><p><b>LVC-VC</b></p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/lvc_vc/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td><p><b>LVC-VC XL</b></p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/lvc_vc_xl/s2s/p241_302_p334_396.wav" type="audio/wav" />
-                </audio>
-              </td>
-            </tr>
+            <table>
+                <tr>
+                    <td>mix</td>
+                    <td>clean s1</td>
+                    <td>enroll s1</td>
+                    <td>extract s1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/mix/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s1/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s2/1188-133604-0022_1221-135767-0019.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+          </tbody>
+        </table>
+    </div>
+</div>
 
-            <!-- M1 to F -->
+
+<div class="row">
+    <div class="col-12 ml-auto">
+        <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
+          <thead>
             <tr>
-              <td rowspan="7" style="vertical-align: top;"><p>p241 (Male)</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/vctk_orig/p241_237.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td rowspan="7" style="vertical-align: top;"><p>p228 (Female)</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/vctk_orig/p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td style="width: 25%"><p>AdaIN-VC</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/adain/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td style="width: 25%"><p>AGAIN-VC</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/again/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
+              <th style="width: 25%">Source Speaker</th>
+              <th style="width: 25%">Target Speaker</th>
+              <th colspan="2">Converted</th>
             </tr>
+          </thead>
+          
+          <!-- M1 to M -->
+            <table>
+                <tr>
+                    <td>mix</td>
+                    <td>clean s1</td>
+                    <td>enroll s1</td>
+                    <td>extract s1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/mix/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s1/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s1/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s1/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s2/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s2/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s2/5639-40744-0034_4507-16021-0058.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+          </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12 ml-auto">
+        <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
+          <thead>
             <tr>
-              <td><p>AutoVC</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/autovc/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td><p>AutoVC-F0</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/autovc_f0/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
+              <th style="width: 25%">Source Speaker</th>
+              <th style="width: 25%">Target Speaker</th>
+              <th colspan="2">Converted</th>
             </tr>
+          </thead>
+          
+          <!-- M1 to M -->
+            <table>
+                <tr>
+                    <td>mix</td>
+                    <td>clean s1</td>
+                    <td>enroll s1</td>
+                    <td>extract s1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/mix/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s1/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s1/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s1/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s2/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s2/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s2/6829-68769-0026_1284-1180-0030.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+          </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12 ml-auto">
+        <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
+          <thead>
             <tr>
-              <td><p>Blow</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/blow/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td><p>NVC-Net</p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/nvcnet/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
+              <th style="width: 25%">Source Speaker</th>
+              <th style="width: 25%">Target Speaker</th>
+              <th colspan="2">Converted</th>
             </tr>
+          </thead>
+          
+          <!-- M1 to M -->
+            <table>
+                <tr>
+                    <td>mix</td>
+                    <td>clean s1</td>
+                    <td>enroll s1</td>
+                    <td>extract s1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/mix/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s1/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s1/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s1/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s2/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s2/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s2/8230-279154-0017_8224-274384-0004.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+          </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12 ml-auto">
+        <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
+          <thead>
             <tr>
-              <td><p><b>LVC-VC</b></p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/lvc_vc/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
-              <td><p><b>LVC-VC XL</b></p>
-                <audio id="player" controls style="width: 100%;">
-                    <source src="audio/lvc_vc_xl/s2s/p241_237_p228_313.wav" type="audio/wav" />
-                </audio>
-              </td>
+              <th style="width: 25%">Source Speaker</th>
+              <th style="width: 25%">Target Speaker</th>
+              <th colspan="2">Converted</th>
             </tr>
+          </thead>
+          
+          <!-- M1 to M -->
+            <table>
+                <tr>
+                    <td>mix</td>
+                    <td>clean s1</td>
+                    <td>enroll s1</td>
+                    <td>extract s1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/mix/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s1/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s1/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s1/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s2/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s2/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s2/8455-210777-0020_61-70968-0054.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+            </table>
+          </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12 ml-auto">
+        <table class="table table-responsive align-content-left" style="background-color: whitesmoke; display: table;">
+          <thead>
+            <tr>
+              <th style="width: 25%">Source Speaker</th>
+              <th style="width: 25%">Target Speaker</th>
+              <th colspan="2">Converted</th>
+            </tr>
+          </thead>
+          
+          <!-- M1 to M -->
+            <table>
+                <tr>
+                    <td>mix</td>
+                    <td>clean s1</td>
+                    <td>enroll s1</td>
+                    <td>extract s1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/mix/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s1/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s1/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s1/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>clean s2</td>
+                    <td>enroll s2</td>
+                    <td>extract s2</td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/clean_s2/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/enroll_s2/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                    <td>
+                        <audio id="player" controls style="width: 100%;">
+                            <source src="audio/extract_s2/8463-294828-0009_3570-5694-0015.wav" type="audio/wav" />
+                        </audio>
+                    </td>
+                </tr>
+            </table>
           </tbody>
         </table>
     </div>
