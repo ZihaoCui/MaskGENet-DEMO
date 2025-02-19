@@ -12,7 +12,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
           <!-- M1 to M -->
-            <table>
+            <table width="400">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
@@ -74,7 +74,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
           <!-- M1 to M -->
-            <table>
+            <table width="400">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
@@ -136,7 +136,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
           <!-- M1 to M -->
-            <table>
+            <table width="400">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
@@ -198,7 +198,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
           <!-- M1 to M -->
-            <table>
+            <table width="400">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
@@ -260,7 +260,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
           <!-- M1 to M -->
-            <table>
+            <table width="400">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
@@ -322,7 +322,7 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
 <div class="row">
     <div class="col-12 ml-auto">
           <!-- M1 to M -->
-            <table>
+            <table width="400">
                 <tr>
                     <td style="width: 25%">mix</td>
                     <td style="width: 25%">clean s1</td>
