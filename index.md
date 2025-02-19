@@ -270,10 +270,10 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
           <!-- M1 to M -->
             <table>
                 <tr>
-                    <td>mix</td>
-                    <td>clean s1</td>
-                    <td>enroll s1</td>
-                    <td>extract s1</td>
+                    <td rowspan="4">mix</td>
+                    <td rowspan="4">clean s1</td>
+                    <td rowspan="4">enroll s1</td>
+                    <td rowspan="4">extract s1</td>
                 </tr>
                 <tr>
                     <td>
@@ -334,10 +334,10 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
           <!-- M1 to M -->
             <table>
                 <tr>
-                    <td>mix</td>
-                    <td>clean s1</td>
-                    <td>enroll s1</td>
-                    <td>extract s1</td>
+                    <td rowspan="4">mix</td>
+                    <td rowspan="4">clean s1</td>
+                    <td rowspan="4">enroll s1</td>
+                    <td rowspan="4">extract s1</td>
                 </tr>
                 <tr>
                     <td>
