@@ -1,35 +1,12 @@
-# End-to-End Zero-Shot Voice Conversion with Location-Variable Convolutions
-
-<font size="5"> Wonjune Kang, Mark Hasegawa-Johnson, Deb Roy </font>
+# Masked Generative Model-Based Target Speaker Extraction Method by Leveraging Discrete Acoustic Tokens
 
 ## Abstract
 
-Zero-shot voice conversion is becoming an increasingly popular research topic, as it promises the ability to transform speech to sound like any speaker. However, relatively little work has been done on end-to-end methods for this task, which are appealing because they remove the need for a separate vocoder to generate audio from intermediate features. In this work, we propose LVC-VC, an end-to-end zero-shot voice conversion model that uses location-variable convolutions (LVCs) to jointly model the conversion and speech synthesis processes. LVC-VC utilizes carefully designed input features that have disentangled content and speaker information, and it uses a neural vocoder-like architecture that utilizes LVCs to efficiently combine them and perform voice conversion while directly synthesizing time domain audio. Experiments show that our model achieves especially well balanced performance between voice style transfer and speech intelligibility compared to several baselines.
+Most existing target speaker extraction (TSE) methods rely on a discriminative approach, which often leads to unpleasant distortions and limited generalization ability. In contrast, the generative approach has recently shown promising results in producing high-quality signals. In this paper, we propose a novel TSE method based on the masked generative model that leverages discrete acoustic tokens. During training, the target speaker’s speech is encoded with a neural codec to derive acoustic tokens, which are then partially masked. The model is optimized to predict these masked tokens by using tokens from both the mixed signal and the target speaker’s enrollment, with the help of attention mechanism. During inference, multiple iterations are performed, progressing from fully masked tokens to fully predicted ones. Tokens with high confidence are preserved, allowing to gradually predict more accurate tokens. Experiments show that the proposed method is effective in performing extraction.
 
 <p></p>
 
 ## Audio Demos
-
-This page contains voice conversion samples for LVC-VC applied to audio files from the [VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443).
-We provide comparisons with six other models: AdaIN-VC, AGAIN-VC, AutoVC, AutoVC-F0, Blow, and NVC-Net.
-
-Additionally, it includes samples from a larger, improved version of the model (not described in the paper), which we call LVC-VC XL. This version of the model uses a larger channel size of 32 (rather than 16) in its LVC layers, utilizes embeddings from [XLSR-53](https://arxiv.org/abs/2006.13979) as content features, and uses information perturbation to extract only linguistic information from them (as done in [NANSY](https://arxiv.org/abs/2110.14513)). It also uses speaker embeddings from [ECAPA-TDNN](https://arxiv.org/abs/2005.07143) rather than [Fast ResNet-34](https://arxiv.org/abs/2003.11982). Please refer to the code for more details.
-
-<!-- Additionally, it contains un-targeted voice anonymization demos for audio files from VCTK and from the [Local Voices Network (LVN)](https://cortico.ai/platform/). Please refer to our paper for the methodology. -->
-
-### Navigation
-
-* [Seen-to-Seen Voice Conversion](#seen-to-seen-voice-conversion)
-* [Unseen-to-Seen Voice Conversion](#unseen-to-seen-voice-conversion)
-* [Unseen-to-Unseen Voice Conversion](#unseen-to-unseen-voice-conversion)
-<!-- * [Un-targeted Voice Anonymization](#un-targeted-voice-anonymization) -->
-<!-- * [Un-targeted Voice Anonymization (LVN)](#un-targeted-voice-anonymization-lvn) -->
-
-<p></p>
-
-### Seen-to-Seen Voice Conversion
-
-[Back to top](#audio-demos)
 
 <!-- Source: M1 -->
 <div class="row">
