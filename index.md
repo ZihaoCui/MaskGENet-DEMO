@@ -67,8 +67,6 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
-          </tbody>
-        </table>
     </div>
 </div>
 
@@ -131,8 +129,6 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
-          </tbody>
-        </table>
     </div>
 </div>
 
@@ -195,8 +191,6 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
-          </tbody>
-        </table>
     </div>
 </div>
 
@@ -259,8 +253,6 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
-          </tbody>
-        </table>
     </div>
 </div>
 
@@ -323,8 +315,6 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
-          </tbody>
-        </table>
     </div>
 </div>
 
@@ -387,7 +377,5 @@ Most existing target speaker extraction (TSE) methods rely on a discriminative a
                     </td>
                 </tr>
             </table>
-          </tbody>
-        </table>
     </div>
 </div>
